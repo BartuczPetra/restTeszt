@@ -1,25 +1,92 @@
 {
-    "konyvek": [
-        {
-            "id": 1,
-            "nev": "Rejtő Jenő",
-            "cim": "Az elveszett cirkáló",
-            "ar": 1234,
-            "kategoria": "regény"
-        },
-        {
-            "id": 2,
-            "nev": "Lackfi János",
-            "cim": "Apám kakasa",
-            "ar": 3240,
-            "kategoria": "vers"
-        }
-    ],
-    "szerzo": [
-        {
-            "id": 1,
-            "nev": "Lackfi János",
-            "szulev":1969
-        }
-    ]
+  "konyvek": [
+    {
+      "id": 1,
+      "nev": "Rejtő Jenő",
+      "cim": "Az elveszett cirkáló",
+      "ar": 1234,
+      "kategoria": "regény"
+    },
+    {
+      "id": 2,
+      "nev": "Lackfi János",
+      "cim": "Apám kakasa",
+      "ar": "3240",
+      "kategoria": "vers"
+    },
+    {
+      "id": 3,
+      "nev": "Móricz Zsigmond",
+      "cim": "Légy jó mindhalálig",
+      "ar": 3240,
+      "kategoria": "regény"
+    },
+    {
+      "id": 4,
+      "nev": "Frank E. Peretti",
+      "cim": "Ez élet sötétsége",
+      "ar": 3240,
+      "kategoria": "regény"
+    },
+    {
+      "id": 5,
+      "nev": "Orvos-Tóth Noémi",
+      "cim": "Örökölt sors",
+      "ar": 3240,
+      "kategoria": "tanulmány"
+    },
+    {
+      "id": 6,
+      "nev": "Agatha Christie",
+      "cim": "Gyilkosság az Orient expresszen",
+      "ar": 3240,
+      "kategoria": "krimi"
+    },
+    {
+      "nev": "József Attila",
+      "cim": "Összes versei",
+      "ar": "1234",
+      "kategoria": "vers",
+      "id": 8
+    },
+    {
+      "nev": "József Attila",
+      "cim": "Összes versei",
+      "ar": "1234",
+      "kategoria": "vers",
+      "id": 9
+    }
+  ],
+  "szerzo": [
+    {
+      "id": 1,
+      "nev": "Lackfi János",
+      "szulev": 1969
+    },
+    {
+      "id": 2,
+      "nev": "Rejtő Jenő",
+      "szulev": 1905
+    },
+    {
+      "id": 3,
+      "nev": "Móricz Zsigmond",
+      "szulev": 1879
+    },
+    {
+      "id": 4,
+      "nev": "Frank E. Peretti",
+      "szulev": 1951
+    },
+    {
+      "id": 5,
+      "nev": "Orvos-Tóth Noémi",
+      "szulev": 1972
+    },
+    {
+      "id": 6,
+      "nev": "Agatha Christie",
+      "szulev": 1890
+    }
+  ]
 }

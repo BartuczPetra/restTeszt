@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+
+body{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    background-color: cadetblue;
+}
+.elemek{
+    border: 2px dotted black;
+    border-radius: 10px;
+    background-color: rgba(156, 233, 236, 0.712);
+    padding: 5px;
+}
+.adatok{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:5px;
+}
+.ujAdat, .torol, .put{
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(31, 207, 207, 0.342) !important;
+    color: white ;
+}
+.ujAdat:hover, .torol:hover, .put:hover{
+    font-size: 21px;
+    cursor: pointer;
+    background-color: darkcyan !important;
+    color: white;
+}
